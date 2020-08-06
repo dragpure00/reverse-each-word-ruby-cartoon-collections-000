@@ -1,7 +1,7 @@
-def reverse_each_word (string)
-  oa= stirng.split(' ')
+def reverse_each_word (sentence)
+  oa= sentence.split(' ')
   ra=[]
-  oa.each do |string|
+  oa.each do |sentence|
     ra = oa.reverse
   end
   ra.join(" ")
