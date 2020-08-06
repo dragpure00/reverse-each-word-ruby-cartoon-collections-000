@@ -1,4 +1,4 @@
-def reverse_each_word (sentence)
+def reverse_each_word_with_each(sentence)
   oa= sentence.split(" ")
   ra=[]
   oa.each do |sentence|
@@ -15,5 +15,5 @@ def reverse_each_word(sentence)
   rra.join(" ")
 end
 
-
+reverse_each_word_with_each("Hello there, and how are you?")
 reverse_each_word("Hello there, and how are you?")
