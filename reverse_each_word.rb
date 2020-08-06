@@ -4,7 +4,7 @@ def reverse_each_word (string)
   oa.each do |string|
     ra = oa.reverse
   end
-  ra.join(" ")  
+  ra.join(" ")
   end
 
 reverse_each_word("Hello how are you?")
