@@ -1,16 +1,22 @@
-def reverse_each_word_with_each(sentence)
-  oa= sentence.split(" ")
+def reverse_each_word_with_each(string)
+  oa= string.split(" ")
   ra=[]
-  oa.each do |sentence|
-    ra << oa.reverse
+  oa.each do |string|
+    ra << string.reverse
   end
   ra.join(" ")
   end
-def reverse_each_word(sentence)
-  ooa=sentence.split(" ")
+
+
+
+
+
+  
+def reverse_each_word(string)
+  ooa=string.split(" ")
   rra=[]
-  ooa.collect do |sentence|
-    rra << ooa.reverse
+  ooa.collect do |string|
+    rra << string.reverse
   end
   rra.join(" ")
 end
